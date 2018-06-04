@@ -1,0 +1,2 @@
+# Wind_predict_seq2seq
+基于seq2seq模型的风功率预测
