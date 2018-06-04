@@ -8,7 +8,7 @@ tensorflow>=1.4<br><br>
 1.利用简单神经网络将缺失数据补全<br>
 2.基于seq2seq模型训练数据<br>
 seq2seq模型示意图<br>
-![]()
+![](https://github.com/LeslieZhoa/Wind_predict_seq2seq/blob/master/img/1.png)
 
 # 文件说明
 data.ipynb:数据处理文件<br>
