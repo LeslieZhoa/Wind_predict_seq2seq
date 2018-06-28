@@ -46,7 +46,7 @@ with tf.variable_scope('Optimizer'):
 min_loss=10000
 sess=tf.Session()
 saver=tf.train.Saver()
-model_file=tf.train.latest_checkpoint('D:/model/fitted/')
+model_file=tf.train.latest_checkpoint('model/fitted/')
 saver.restore(sess,model_file)
 out=sess.run(output,feed_dict={x:xt})
 
